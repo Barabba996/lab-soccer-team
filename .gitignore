@@ -1,0 +1,10 @@
+.claude/
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+.git-ass-crescere-parlando-backup/
+
+# Documenti sorgente con dati personali sensibili (nomi, date di nascita,
+# indirizzi, codici fiscali) — non versionati nemmeno su repo privata.
+references/documents/
