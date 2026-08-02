@@ -8,3 +8,6 @@ Thumbs.db
 # Documenti sorgente con dati personali sensibili (nomi, date di nascita,
 # indirizzi, codici fiscali) — non versionati nemmeno su repo privata.
 references/documents/
+
+.vercel
+.env*
