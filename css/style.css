@@ -691,13 +691,13 @@ button{ font-family:inherit; cursor:pointer; }
 }
 .about-copy strong{ color: var(--navy); }
 
-.board{
+.trust-box{
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 30px 30px 12px;
 }
-.board-label{
+.trust-label{
   display:block;
   font-family: var(--font-display);
   font-size: 12.5px;
@@ -707,17 +707,18 @@ button{ font-family:inherit; cursor:pointer; }
   color: var(--orange);
   margin-bottom: 18px;
 }
-.board-list li{
-  display:flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 12px;
-  padding: 14px 0;
+.trust-list li{
+  padding: 16px 0;
   border-top: 1px solid var(--border);
-  font-size: 14.5px;
 }
-.board-list strong{ color: var(--navy); font-weight: 600; }
-.board-list span{ color: var(--gray-light); font-size: 12.5px; text-transform: uppercase; letter-spacing: .04em; white-space: nowrap; }
+.trust-list strong{
+  display:block;
+  font-family: var(--font-display);
+  font-size: 15px;
+  color: var(--navy);
+  margin-bottom: 4px;
+}
+.trust-list span{ color: var(--gray); font-size: 13.5px; line-height: 1.5; }
 
 /* =========================================================
    CARTA DEI VALORI

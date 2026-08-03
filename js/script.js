@@ -123,14 +123,14 @@ if (window.gsap && window.ScrollTrigger) {
     '.objectives-grid .objective-item',
     '.news-grid .news-card',
     '.stats-row .stat',
-    '.board-list li',
+    '.trust-list li',
     '.charter-list .charter-row',
     '.roadmap .roadmap-step',
     '.staff-grid .staff-card',
     '.case-facts .case-fact',
     '.case-results .case-result'
   ];
-  const staggerParents = '.objectives-grid, .news-grid, .stats-row, .board-list, .charter-list, .roadmap, .staff-grid, .case-facts, .case-results';
+  const staggerParents = '.objectives-grid, .news-grid, .stats-row, .trust-list, .charter-list, .roadmap, .staff-grid, .case-facts, .case-results';
   staggerGroups.forEach(sel => {
     const items = document.querySelectorAll(sel);
     if (!items.length) return;
